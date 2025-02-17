@@ -1,0 +1,26 @@
+{
+  "name": "react-component-tree-generator",
+  "version": "1.0.0",
+  "description": "a small library to generate a tree of react components using markdown and markmap plugin",
+  "main": "index.js",
+  "bin": {
+    "react-component-tree": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "keywords": [],
+  "author": "elbani.othman@gmail.com",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^22.13.4",
+    "commander": "^13.1.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/paradoxial-composition/react-component-tree-generator"
+  }
+}
