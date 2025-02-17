@@ -4,7 +4,7 @@
   "description": "a small library to generate a tree of react components using markdown and markmap plugin",
   "main": "index.js",
   "bin": {
-    "react-tree": "dist/index.js"
+    "react-tree": "./dist/index.js"
   },
   "scripts": {
     "build": "tsc",
