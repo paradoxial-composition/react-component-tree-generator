@@ -1,6 +1,6 @@
 {
   "name": "react-component-tree-generator",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "a small library to generate a tree of react components using markdown and markmap plugin",
   "main": "index.js",
   "bin": {
@@ -13,9 +13,11 @@
   "keywords": ["react", "component", "tree", "generator"],
   "author": "elbani.othman@gmail.com",
   "license": "MIT",
+  "dependencies": {
+    "commander": "^13.1.0"
+  },
   "devDependencies": {
     "@types/node": "^22.13.4",
-    "commander": "^13.1.0",
     "ts-node": "^10.9.2",
     "typescript": "^5.7.3"
   },
